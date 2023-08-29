@@ -2,9 +2,54 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Courier New';
+    
 }
 
 html,body{
     height: 100%;
     width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #b98aa7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#ptop{
+    height: 100px;
+    width: 100%;
+    padding: 0px 30%;
+    align-items: center;
+    background-color: #974b79;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box{
+    color: #5d2546;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
 }
